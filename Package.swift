@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "GalenitXpCore111",
-            dependencies: ["CoreUtils"],
+            dependencies: ["CoreUtils", "galenit_device_api"],
             path: "Sources"
         ),
         .binaryTarget(
