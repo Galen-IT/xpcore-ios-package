@@ -4,16 +4,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "GalenitXpCore",
+    name: "galenit_device_api",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "GalenitXpCore1",
+            name: "galenit_device_api",
             targets: ["galenit_device_api"]),
     ],
-    dependencies: [],
     targets: [
 //        .target(
 //            name: "GalenitXpCore2",
