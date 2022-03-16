@@ -10,13 +10,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "GalenitXpCore",
-            targets: ["galenit_device_api"]),
+            name: "GalenitXpCore1",
+            targets: ["GalenitXpCore2"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "GalenitXpCore",
+            name: "GalenitXpCore2",
             dependencies: ["galenit_device_api"],
             path: "Sources"
         ),
