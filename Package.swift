@@ -15,6 +15,11 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
+        .target(
+            name: "GalenitXpCore",
+            dependencies: ["galenit_device_api"],
+            path: "Sources"
+        ),
         .binaryTarget(
             name: "galenit_device_api",
             url: "https://github.com/Galen-IT/FlowVit_PublicSDKs_iOS/releases/download/v1.0.0/galenit_device_api.xcframework.zip",
