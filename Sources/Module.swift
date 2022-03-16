@@ -1,10 +1,8 @@
-import galenit_device_api
+import Foundation
+import GalenIT_CoreSDK
 
-public struct Helper {
-    public var hello: String { "hello2" }
-    
-    public func initCore(key: String) {
-        let res = GalenIT.shared.start(token: key)
-        print(res)
+public struct MyHelper {
+    public func timestamp(_ date: Date) -> Int64 {
+        date.toMillis
     }
 }
