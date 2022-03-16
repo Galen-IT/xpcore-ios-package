@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "GalenitXpCore1",
-            targets: ["GalenitXpCore2", "galenit_device_api"]),
+            targets: ["galenit_device_api"]),
     ],
     dependencies: [],
     targets: [
