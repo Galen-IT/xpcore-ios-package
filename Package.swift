@@ -11,13 +11,18 @@ let package = Package(
     products: [
         .library(
             name: "GalenitXpCore",
-            targets: ["GalenitXpCore"]),
+            targets: ["GalenitXpCore111"]),
     ],
     targets: [
         .target(
-            name: "GalenitXpCore",
-            dependencies: ["galenit_device_api"],
+            name: "GalenitXpCore111",
+            dependencies: ["CoreUtils", "galenit_device_api"],
             path: "Sources"
+        ),
+        .binaryTarget(
+            name: "CoreUtils",
+            url: "https://github.com/Galen-IT/FlowVit_PublicSDKs_iOS/releases/download/v1.0.0/CoreUtils.xcframework.zip",
+            checksum: "9573e561e8f07761290e11d57ca58269a1ea5e74355bb2feb6e1ef1cad45ab77"
         ),
        .binaryTarget(
             name: "galenit_device_api",
