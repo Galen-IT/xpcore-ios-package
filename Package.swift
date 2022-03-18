@@ -11,7 +11,8 @@ let package = Package(
     products: [
         .library(
             name: "GalenitXpCore",
-            targets: ["GalenitXpCore"]),
+            targets: ["GalenitXpCore"]
+        ),
     ],
     targets: [
         .target(
@@ -22,7 +23,7 @@ let package = Package(
        .binaryTarget(
             name: "galenit_device_api",
             url: "https://github.com/Galen-IT/FlowVit_PublicSDKs_iOS/releases/download/v1.0.0/galenit_device_api.xcframework.zip",
-            checksum: "875104293d48b43a5115a0c0789da341331e9bcb71b4de9164e49b2aae9842fa"
+            checksum: "0f29be7ead4a387b76f07f37cea585386e03b4c9a9e53291f18afef752882fe1"
         )
     ]
 )
