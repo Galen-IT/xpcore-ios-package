@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "GalenitXpCore",
+            name: "galenit_device_api",
             targets: ["GalenitXpCore"]
         ),
     ],
