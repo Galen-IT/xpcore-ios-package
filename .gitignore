@@ -25,4 +25,5 @@ Carthage/Build
 *.resolved
 *.xcworkspace
 *.framework
+*.xcodeproj
 *.xcframework
