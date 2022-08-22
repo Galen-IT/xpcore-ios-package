@@ -3,26 +3,26 @@
 import PackageDescription
 
 let package = Package(
-    name: "galenit-xpcore",
+    name: "darwell-core",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "GalenitXpCore",
-            targets: ["GalenitXpCore"]
+            name: "DarwellCore",
+            targets: ["DarwellCore"]
         ),
     ],
     targets: [
         .target(
-            name: "GalenitXpCore",
+            name: "DarwellCore",
             dependencies: ["galenit_device_api"],
             path: "Sources"
         ),
        .binaryTarget(
             name: "galenit_device_api",
-            url: "https://github.com/galen-it/xpcore-ios-package/releases/download/1.0.4/galenit_device_api.xcframework.zip",
-            checksum: "ec6cae0caf009bc2ade1b4d15315e7f2417c24ed5988b1cf3dbfb0d88cfe64de"
+            url: "https://github.com/galen-it/xpcore-ios-package/releases/download/1.1.0/galenit_device_api.xcframework.zip",
+            checksum: "0e4ae2baf25adc6d3ef1aa7bd1c5bfddcc83f4784507082d1035744d66648b56"
         )
     ]
 )
