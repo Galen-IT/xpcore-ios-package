@@ -21,8 +21,8 @@ let package = Package(
         ),
        .binaryTarget(
             name: "galenit_device_api",
-            url: "https://github.com/galen-it/xpcore-ios-package/releases/download/1.1.0/galenit_device_api.xcframework.zip",
-            checksum: "0e4ae2baf25adc6d3ef1aa7bd1c5bfddcc83f4784507082d1035744d66648b56"
+            url: "https://github.com/galen-it/xpcore-ios-package/releases/download/1.1.1/galenit_device_api.xcframework.zip",
+            checksum: "500bd0f0fe1c79c8ccfd6a1ec9c67e88fc404ae3e928c992b98762da9d82b7a2"up
         )
     ]
 )
